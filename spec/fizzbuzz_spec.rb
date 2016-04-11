@@ -21,4 +21,8 @@ describe FizzBuzz do
 	it "returns the number when number is not divisible by 5 or 3" do
 		expect(@fizzbuzz.get(1)).to eq(1)
 	end
+
+	it "returns 0 when the number is 0" do
+		expect(@fizzbuzz.get(0)).to eq(0)
+	end
 end
