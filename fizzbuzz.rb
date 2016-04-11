@@ -9,5 +9,7 @@ class FizzBuzz
 		if(number % 5 == 0)
 			return "Buzz"
 		end
+
+		return number
 	end
 end
