@@ -17,4 +17,8 @@ describe FizzBuzz do
 	it "returns fizzbuzz when number is both divisible by 5 and 3" do
 		expect(@fizzbuzz.get(15)).to eq("FizzBuzz")
 	end
+
+	it "returns the number when number is not divisible by 5 or 3" do
+		expect(@fizzbuzz.get(1)).to eq(1)
+	end
 end
