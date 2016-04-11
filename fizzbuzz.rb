@@ -1,5 +1,8 @@
 class FizzBuzz
 	def get(number)
+		if(number == 0)
+			return number
+		end
 		if(number % 15 === 0)
 			return "FizzBuzz"
 		end
